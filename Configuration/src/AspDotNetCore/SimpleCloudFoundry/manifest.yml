@@ -1,0 +1,7 @@
+---
+applications:
+- name: foo 
+  env:
+    ASPNETCORE_ENVIRONMENT: development
+  services:
+   - MyConfigServer

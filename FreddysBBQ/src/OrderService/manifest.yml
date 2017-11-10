@@ -1,0 +1,11 @@
+---
+applications:
+- name: order-service
+  env:
+    ASPNETCORE_ENVIRONMENT: Development
+    GRANT_TYPE: client_credentials
+  services:
+   - service-registry
+   - config-server
+   - mysql-orders
+   - sso

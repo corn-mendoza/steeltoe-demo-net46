@@ -1,0 +1,9 @@
+= .NET Framework Steeltoe Demos
+
+The demonstration applications are designed to use the services provided Spring Cloud Services. This includes Config Server, Circuit Breaker and Service Registry. This is the .NET Framework versions
+
+== .NET Framework
+
+* link:Config/dotnet-framework-config-demo.md[Config Server]
+* link:DiscoveryAndCircuitBreaker/dotnet-framework-discovery-and-circuit-breaker-demo.md[Service Registry and Circuit Breaker]
+

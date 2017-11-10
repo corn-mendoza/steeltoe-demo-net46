@@ -1,0 +1,9 @@
+---
+applications:
+- name: admin-portal
+  env:
+    ASPNETCORE_ENVIRONMENT: Development
+  services:
+   - service-registry
+   - config-server
+   - sso

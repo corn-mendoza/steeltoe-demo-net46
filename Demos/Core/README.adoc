@@ -1,0 +1,9 @@
+= .NET Core Steeltoe Demos
+
+The demonstration applications are designed to use the services provided Spring Cloud Services. This includes Config Server, Circuit Breaker and Service Registry. This is the .NET Core versions
+
+== .NET Core
+
+* link:Config/dotnet-core-config-demo.md[Config Server]
+* link:DiscoveryAnyCircuitBreaker/dotnet-core-discovery-and-circuit-breaker-demo.md[Service Registry and Circuit Breaker]
+

@@ -1,0 +1,7 @@
+﻿---
+applications:
+- name: mysqlefcore-connector
+  env:
+    ASPNETCORE_ENVIRONMENT: Development
+  services:
+   - myMySqlService
